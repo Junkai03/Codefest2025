@@ -13,47 +13,40 @@ Our goal is to simplify review analysis for businesses by:
 - Providing an automated **review sentiment and analysis tool**.
 
 ### Tech Stack
-- **Python** 🐍 (Main language)
-- **Transformers (T5 Model)** 🤖 (Text summarization)
-- **Pandas** 📊 (Data handling)
-- **LanguageTool** 📜 (Grammar correction)
+- **Python**  (Main language)
+- **Transformers (T5 Model)**  (Text summarization)
+- **Pandas**  (Data handling)
+- **LanguageTool**  (Grammar correction)
 
 ---
 
 ## How It Works
 
-1. **Load Business & Review Data** 🏢  
+1. **Load Business & Review Data**   
    - The dataset consists of Yelp business and review data.
    - We filter businesses located in **Pennsylvania (PA)**.
 
-2. **Summarize Reviews** 📑  
+2. **Summarize Reviews**   
    - The **T5 model** generates a summary based on the given reviews.
    - The summary is converted into **3 bullet points**.
 
-3. **Grammar Correction** ✅  
+3. **Grammar Correction**   
    - We use **LanguageTool** to refine and correct the summary.
 
-4. **Output Finalized Insights** 📌  
+4. **Output Finalized Insights**   
    - Business owners receive a **concise** and **error-free** review summary.
 
 ---
 
-## Installation & Setup
-
-### 1) Clone the Repository
-```bash
-git clone https://github.com/your-username/LetUsHelpYou.git
-cd LetUsHelpYou
-### 2) Install Dependencies
-pip install pandas transformers language_tool_python
-### 3) Run the Script
-python model.py
-
----
-
 ## Philly Codefest 2025 Submission
+
 This project is proudly submitted as part of Philly Codefest 2025 to showcase how AI-powered automation can help businesses extract valuable insights from customer reviews.
 
-Contributors:
+👥 Contributors:
 
 Junkai Ge
+Manish Gurung
+Xinzhao Xie
+
+
+
